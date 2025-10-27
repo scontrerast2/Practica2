@@ -9,7 +9,7 @@ El dataset es de jugadores de FIFA, con los siguientes campos:
 Justificación de los criterios de búsqueda implementados:
 - Búsqueda primaria por short_name utilizando tabla hash para eficiencia (<2 segundos).
 - Estructura: Tabla hash con encadenamiento para colisiones, almacenando offsets en el archivo binario.
-- Para búsquedas secundarias (no implementadas en este código base, pero extensibles: por club_name u overall via escaneo o hash adicional).
+- Para búsquedas secundarias.
 
 Rangos de valores válidos para cada campo de entrada:
 - short_name: String de longitud < 256 caracteres.
