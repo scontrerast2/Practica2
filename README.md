@@ -1,4 +1,5 @@
 # LEEME
+DataSet: https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset 
 Descripción detallada de los campos del dataset seleccionado:
 El dataset es de jugadores de FIFA, con los siguientes campos:
 - player_id: ID único del jugador (entero)
@@ -15,7 +16,6 @@ Rangos de valores válidos para cada campo de entrada:
 - short_name: String de longitud < 256 caracteres.
 - age: 15-50 (no validado en código, agregar if en client).
 - overall: 0-99.
-- Etc. (adaptar por campo, validación en opción 2).
 
 Ejemplos específicos de uso del programa con su dataset:
 - Ejecutar server: ./p2-dataProgram (requiere players.csv si no existe bin).
